@@ -9,16 +9,21 @@ tags:
   - r
   - workflow
 ---
-# My R Workflow
+
+This is my R workflow when working on a project. It is written in the first
+person because it is a post to instruct me what to do (I sometimes forget
+what the next step is...).
 
 ## Prerequisites
 
-This is my R workflow when working on a project. This requires the following 
-software to already be installed:
+This requires the following software to already be installed:
 
 - R
 - RStudio
 - Git for Windows (well, just Git, but I typically use Windows, so...)
+
+The installation and configuration of Git will be addressed in another blog post.
+Once you set it up, it works.
 
 ## Setting up Git on Windows
 
