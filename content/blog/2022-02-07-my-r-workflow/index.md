@@ -49,7 +49,8 @@ options, depending on whether I already have the directory created.
 
 ![File then New Project](images/R-File--New-Project.png)
 
-Go to creating in an [existing directory](#existing-directory)
+If I already have the directory, then go to creating in an [existing directory](#existing-directory). Otherwise, go on to the next section.
+
 ### New Directory
 
 If I am creating the folder, the most likely scenario, the select __`New Directory`__. 
@@ -67,7 +68,7 @@ before we create the Renv environment.
 When you click the __`Create Project`__ button, the new project is created and
 RStudio opens it. 
 
-Now I can proceed to [setting up the Renv environment](#setting-up-the-renv-environment).
+Now go finish setting up the [GitHub connection](#setting-up-the-github-connection).
 
 ### Existing Directory
 
@@ -84,6 +85,8 @@ After the project is opened, I need to create the Git repository for
 version control. To do this, enter __`usethis::use_git()`__ in the Console. This 
 will create and initialize the local Git repository, allow you to commit the 
 existing files, and restart RStudio to start using the Git repository.
+
+# Setting up the GitHub connection
 
 Even though I have a Git repository, it is not synchronized with an online
 repository in GitHub. To do that, we need to enter 
